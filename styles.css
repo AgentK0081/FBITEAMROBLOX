@@ -3,25 +3,12 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #1c1c3c; /* Dark blue background */
+    background-color: #0a0a23;
     color: white;
-    position: relative;
 }
 
-/* FBI Logo Styling */
-.url(https://github.com/AgentK0081/FBITEAMROBLOX/blob/0abaa1b2853b2169ef6574280178223377ca53e5/image/fbi-logo.png) {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 300px; /* Adjust size as needed */
-    opacity: 0.2; /* Adjust transparency */
-    z-index: -1; /* Keeps it behind content */
-}
-
-/* Header Styling */
 header {
-    background: rgba(28, 28, 60, 0.8);
+    background: #1c1c3c;
     padding: 15px;
 }
 
@@ -40,22 +27,16 @@ nav a {
     font-weight: bold;
 }
 
-/* Social Media Icons */
-.social-icons {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.hero {
+    padding: 50px 20px;
 }
 
-.social-icons a img {
-    width: 50px;
-    height: 50px;
-    transition: transform 0.3s ease;
-}
-
-.social-icons a img:hover {
-    transform: scale(1.1);
+.btn {
+    background: #ff6600;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
 }
