@@ -1,2 +1,8 @@
-// JavaScript features will be added here in future.
-console.log("FBI TEAM ROBLOX website is live!");
+function openNav() {
+    document.getElementById("sidebar").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("sidebar").style.width = "0";
+}
+
