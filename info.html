@@ -5,26 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About FBI TEAM ROBLOX</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
 
-    <img src="images/fbi-logo.png" alt="FBI Logo" class="fbi-logo">
-    
+    <!-- Sidebar Navigation -->
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Home</a>
+        <a href="info.html">About Us</a>
+        <a href="page3.html">Coming Soon</a>
+    </div>
+
+    <!-- Open Sidebar Button -->
+    <span class="openbtn" onclick="openNav()">☰</span>
+
+    <!-- Translucent FBI Logo -->
+    <div class="logo-container">
+        <img src="images/fbi-logo.png" alt="FBI Logo" class="fbi-logo">
+    </div>
+
     <header>
         <h1>About FBI TEAM ROBLOX</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="info.html">About Us</a>
-            <a href="page3.html">Coming Soon</a>
-        </nav>
     </header>
+
     <section class="content">
         <h2>Who We Are</h2>
         <p>FBI TEAM ROBLOX is a top-tier enforcement group keeping order in Roblox. We conduct operations, train agents, and ensure a safe environment.</p>
+
         <h3>Our Mission</h3>
         <p>To bring justice, strategy, and teamwork into every Roblox operation.</p>
+
         <h3>How to Join</h3>
         <p>Recruitment is open! Stay tuned for updates on our official Discord.</p>
     </section>
+
 </body>
 </html>
