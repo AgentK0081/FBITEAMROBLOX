@@ -99,3 +99,22 @@ header {
 .social-links a img:hover {
     transform: scale(1.1);
 }
+
+/* Police Light Effect */
+.police-lights {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2; /* Behind all content */
+    pointer-events: none;
+    animation: policeLights 2s infinite alternate;
+}
+
+@keyframes policeLights {
+    0% { background: rgba(255, 0, 0, 0.2); }  /* Red light */
+    50% { background: rgba(0, 0, 255, 0.2); } /* Blue light */
+    100% { background: rgba(255, 0, 0, 0.2); } /* Red light */
+}
+
