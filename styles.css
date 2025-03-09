@@ -147,9 +147,3 @@ header {
     left: 40%;
     transform: rotate(-10deg);
 }
-
-/* Background for info.html */
-.info-page {
-    background: url(images/Untitled.png) no-repeat center center fixed;
-    background-size: cover;
-}
