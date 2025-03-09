@@ -118,3 +118,38 @@ header {
     100% { background: rgba(255, 0, 0, 0.2); } /* Red light */
 }
 
+/* Translucent Background Images */
+.background-image {
+    position: fixed;
+    z-index: -1; /* Keeps it behind content */
+    opacity: 0.2; /* Adjust transparency */
+    transform: rotate(15deg); /* Default rotation */
+    width: 200px; /* Adjust size */
+    height: auto;
+    pointer-events: none; /* Prevents interaction */
+}
+
+/* Specific Positioning */
+.image-1 {
+    top: 10%;
+    left: 5%;
+    transform: rotate(-20deg);
+}
+
+.image-2 {
+    top: 50%;
+    right: 10%;
+    transform: rotate(30deg);
+}
+
+.image-3 {
+    bottom: 10%;
+    left: 40%;
+    transform: rotate(-10deg);
+}
+
+/* Background for info.html */
+.info-page {
+    background: url(images/Untitled.png) no-repeat center center fixed;
+    background-size: cover;
+}
