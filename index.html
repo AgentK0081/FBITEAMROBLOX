@@ -18,6 +18,28 @@
     </div>
 
     <div class="police-lights"></div>
+
+    /* Floating glowing white particles */
+        .particle {
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            opacity: 0.7;
+            border-radius: 50%;
+            animation: floatUp linear infinite;
+        }
+
+        @keyframes floatUp {
+            from {
+                transform: translateY(100vh);
+                opacity: 0.7;
+            }
+            to {
+                transform: translateY(-10vh);
+                opacity: 0;
+            }
+    }
     
     <!-- Open Sidebar Button -->
     <span class="openbtn" onclick="openNav()">☰</span>
