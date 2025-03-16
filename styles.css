@@ -147,3 +147,9 @@ header {
     left: 40%;
     transform: rotate(-10deg);
 }
+
+.gradient-bg {
+    background: linear-gradient(to right, purple, darkblue);
+    height: 100vh; /* Full screen height */
+    width: 100%;
+}
